@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.title {
+  color: gray;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: blue;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Dark mode */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark a {
+  color: lightblue;
+}

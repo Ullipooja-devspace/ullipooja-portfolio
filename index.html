@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ulli Pooja Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Ulli Pooja</h1>
+  <p class="title">Student / Aspiring Developer</p>
+
+  <button onclick="toggleTheme()">Toggle Theme</button>
+
+  <ul class="nav">
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#internships">Internships</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#admin">Admin Login</a></li>
+  </ul>
+
+  <p>
+    Passionate student exploring web development and programming.<br>
+    Building creative and practical projects to enhance technical skills.
+  </p>
+
+  <h2 id="education">Education</h2>
+  <p><b>B.Tech</b><br>St. Martins Engineering College (2023–2027)</p>
+  <p><b>Intermediate</b><br>Sri Chaitanya Junior College (2021–2023)</p>
+  <p><b>SSC</b><br>Eureka Model High School (2021)</p>
+
+  <h2 id="projects">Projects</h2>
+  <p><b>Restaurant Website</b><br>
+  A responsive website for browsing menu and ordering food.</p>
+
+  <p><b>Personal Portfolio</b><br>
+  Showcasing personal details, skills, and projects.</p>
+
+  <h2 id="skills">Skills</h2>
+  <p>HTML, CSS, JavaScript, Python</p>
+
+  <h2 id="internships">Internships</h2>
+  <p>Web Technologies Intern – Path Creators</p>
+  <p>Java Intern – ULS Technologies</p>
+
+  <h2 id="certifications">Certifications</h2>
+  <ul>
+    <li>Aviatrix Multicloud Network Associate</li>
+    <li>Entrepreneurship Awareness – MSME</li>
+    <li>Prompt Engineering</li>
+    <li>AI & ML</li>
+    <li>Cybersecurity Analyst – Tata</li>
+    <li>Daily Quiz – Unstop</li>
+    <li>Aptitude & Reasoning – TASK</li>
+  </ul>
+
+  <h2 id="contact">Contact Me</h2>
+  <input type="text" placeholder="Your name">
+  <input type="email" placeholder="Your email">
+  <textarea placeholder="Your message"></textarea>
+  <button onclick="saveMessage()">Send</button>
+
+  <h2 id="admin">Admin Login</h2>
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+
+  <h2>User Responses</h2>
+  <div id="messages"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
